@@ -1,0 +1,25 @@
+{
+    "technician": {
+        "V_max (m/s)": 15.557,
+        "M_t (kg)": 400,
+        "T (hour)": {"0-1": 0.7, "1-2":0.4, "2-3":0.6, "3-4":0.7,
+                "4-5":0.8, "5-6": 0.9, "6-7": 1.0, "7-8":0.7,
+                "8-9": 0.6, "9-10": 0.5, "10-11":0.7, "11-12":0.8 }
+            
+    },
+    "drone": {
+        "takeoffSpeed [m/s]":20,
+        "cruiseSpeed [m/s]":30,
+        "landingSpeed [m/s]":20,
+        "cruiseAlt [m]":50,
+        "capacity [kg]":2.27,
+        "batteryPower [Joule]":562990,
+        "speed_type":"low",
+        "range":"high",
+        "beta(w/kg)":210.8,
+        "gama(w)":181.2,
+
+        "FixedTime (s)":1400,
+        "FixedDistance (m)":19312.128
+    }
+}           
